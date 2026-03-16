@@ -1,0 +1,10 @@
+# Self-improving .gitignore
+
+# 不需要同步的文件
+heartbeat-state.md
+*.bak
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db

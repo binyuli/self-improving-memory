@@ -7,12 +7,6 @@
 **Pattern**: First occurrence (1/3 for promotion)
 
 
-## [2026-03-16] Feedback: Response Latency
-**Context**: User asked "查屁眼里去了？" indicating frustration with slow response
-**Issue**: Took too long to complete installation task due to ClawHub rate limit
-**Better approach**: Should have notified user immediately when hitting rate limit, instead of silently retrying
-**Pattern**: First occurrence (1/3 for promotion)
-
 
 ## [2026-03-16] Workflow: GitHub & ClawHub Management
 **Context**: User asked to publish skills to ClawHub instead of GitHub
@@ -24,13 +18,6 @@
   - 5 skills failed due to slug conflicts (already taken)
   - Used `clawhub publish --version "1.0.0" for all skills
 **Pattern**: First occurrence (1/3 for promotion)
-
-## [2026-03-16] Feedback: Response Latency (Reinforced)
-**Context**: User expressed frustration with slow response again
-**User said**: "查屁眼里去了？"
-**Issue**: Rate limit at ClawHub caused delays
-**Lesson**: Always notify user immediately when hitting rate limit
-**Pattern**: Second occurrence (2/3 for promotion) - **PROMOTE TO MEMORY.md**
 
 ## [2026-03-16] Preference: Public Repositories for China Access
 **Context**: User needs to clone repos from mainland China server
